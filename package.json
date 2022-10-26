@@ -1,0 +1,21 @@
+{
+  "name": "server-coder",
+  "version": "1.0.0",
+  "description": "Test server",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon Server.js",
+    "start": "node Server.js"  
+   
+  },
+  "keywords": [],
+  "author": "Mux",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
